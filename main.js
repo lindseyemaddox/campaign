@@ -40,6 +40,28 @@ const candidate = {
           bowling: true
         }
       ]
+    },
+    {
+      name: "Linda Blow",
+      address: [
+        {
+          street: "1401 Pawnee Trail",
+          city: "Madison",
+          state: "TN",
+          zip: 37115
+        }
+      ]
+      email: "linda@blow.com",
+      phone: 6153087108,
+      availability: "never",
+      activities: [
+        {
+          phone: true,
+          polling: false,
+          trolling: true,
+          bowling: true
+        }
+      ]
     }
   ],
   bio: "Elizabeth Sanger is a top-performing web developer with a passion for creating beautiful, functional, pixel-perfect websites and applications. With more than 12 years of professional experience, Lindsey has a forté for fusing her natural artistic abilities with her graphic design skills to create fluidly responsive websites and applications. She's known for developing clean, solid, semantic markup with as little overhead and redundancy as possible—which results in lightweight, fast-loading code.",
@@ -53,3 +75,25 @@ const candidate = {
   mission: "As a freelance front end developer, graphic designer, and UX specialist, I focus on creating usable, functional, responsive websites and applications that follow industry standards and best practices and are optimized for practical development solutions. I comment code so future developers and clients can easily navigate websites. My background in graphic design allows me to hand-code pixel-perfect websites that incorporate as many aspects as possible from initial mockups. I believe that consistency is key when it comes to effective messaging. That’s why every website I create accurately reflects a client’s brand and voice. This also leads to higher rates of user engagement, increased call-to-action responses, and more effective overall digital branding.",
   register_url: "https://www.vote.com"
 }
+
+
+
+
+
+
+
+// Modifying an array? The function argument should be added to the target array with the push() method.
+// Modifying an object? Pass both the key name to be modified, and its corresponding value.
+
+
+// function addToImageGallery (newImage) {
+//   ...
+// }
+
+// function changeBiography (newBiography) {
+//   ...
+// }
+
+// function changePlatform (topic, newPlatformStatement) {
+//   ...
+// }
